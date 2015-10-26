@@ -1,5 +1,22 @@
 <jeu nom="LastGame" version="1.0" version-date="12/10/2015" auteur-principal="Neckara">
 
+		
+	<descriptions>
+		<jeu>Un super jeu qui est super</jeu>
+		<dev>Pas facile mais on est courageux.</dev>
+		<voir-aussi nom="Game">Jeu dont LastGame est inspiré</voir-aussi>
+		<voir-aussi nom="LastGame II">La suite de LastGame</voir-aussi>
+	</descriptions>
+	<genres>
+		<genre>RPG</genre>
+		<genre>Médiéval</genre>
+		<genre>Temps réel</genre>
+	</genres>
+	<langues>
+		<fr/><en/><de/>
+	</langues>
+
+
 	<auteurs>
 		<auteur nom="Neckara">
 			<roles>
@@ -26,12 +43,7 @@
 		</bibliotheques>
 	</techno>
 
-	
 
-	<descriptions>
-		<jeu>Un super jeu qui est super</jeu>
-		<dev>Pas facile mais on est courageux.</dev>
-	</descriptions>
 	<commandes nb-joueur-min="1" nb-joueur-max="2" nb-joueur-max-online="3">
 		<manette configurable="true" type="xbox">
 			<a>Sauter</a>
@@ -41,10 +53,14 @@
 		<clavier nbJoueurMax="2" type="azerty"></clavier>
 	</commandes>
 
-	<objets>
-		<objet nom="plume" img="ii"/>
-		<monstre nom="tit" img="vv"/>
-	</objets>
+	<regles>
+		<description>Tour à tour, vous faites des trucs pour gagner.</description>
+		<objets categorie="Consommable">
+			<description>Les objets consommables peuvent être mangé miam miam.</description>
+			<objet nom="plume" img="ii">description</objet>
+		</objets>
+		<description>Si vous perdez, vous avez perdu.</description>
+	</regles>
 
 	<historique>
 		<event date="1993">Création du projet</event>
