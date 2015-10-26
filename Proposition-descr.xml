@@ -1,0 +1,67 @@
+<jeu nom="LastGame" version="1.0" version-date="12/10/2015" auteur-principal="Neckara">
+
+	<auteurs>
+		<auteur nom="Neckara">
+			<roles>
+				<role nom="developpeur C++"/>
+				<role nom="Infographiste" debut="12/12/12" fin="13/12/12" />
+			</roles>
+		</auteur>
+	</auteurs>
+
+	<versions>
+		<Linux kernel="3.2.4" distribution="Debian" distribution-version="Jessie" />
+		<Windows version="8" />
+		<Mac/>
+		<Android/>
+		<ios/>
+		<navigateur/>
+	</versions>
+	<techno>
+		<langages>
+			<langage nom="C++" version="11"/>
+		</langages>
+		<bibliotheques>
+			<bibliotheque nom="boost" version="12"/>
+		</bibliotheques>
+	</techno>
+
+	
+
+	<descriptions>
+		<jeu>Un super jeu qui est super</jeu>
+		<dev>Pas facile mais on est courageux.</dev>
+	</descriptions>
+	<commandes nb-joueur-min="1" nb-joueur-max="2" nb-joueur-max-online="3">
+		<manette configurable="true" type="xbox">
+			<a>Sauter</a>
+			<a>Courir</a>
+			<pave-directionnel>Se déplacer</pave-directionnel>
+		</manette>
+		<clavier nbJoueurMax="2" type="azerty"></clavier>
+	</commandes>
+
+	<objets>
+		<objet nom="plume" img="ii"/>
+		<monstre nom="tit" img="vv"/>
+	</objets>
+
+	<historique>
+		<event date="1993">Création du projet</event>
+		<event date="21/12/2012">Fin du monde</event>
+		<event date="2015">????</event>
+	</historique>
+	<presentations>
+		<presentation nom="developpez" url=""/>
+		<presentation nom="last-site-toto-titi" url=""/>
+	</presentations>
+	<recompences>
+		<recompence nom="grand prix du last of the last" url="">Grand prix du dernier des derniers</recompence>
+	</recompences>
+	<ressources>
+		<image id="ii" src="ee" type="fond-ecran">Un truc</image>
+		<son id="ii" src="ee">Un son</son>
+		<video id="ii" src="ee" type="trailer">Une video</video>
+	</ressources>
+
+</jeu>
