@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Requiert les paquet Debian xsltproc et fop
+
+xsltproc -o /tmp/Livret.fo ressources/pdf.xsl ressources/liste_projets.xml
+fop -fo /tmp/Livret.fo -pdf ../Livret.pdf
