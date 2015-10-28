@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Requiert les paquet Debian xsltproc et fop
+# Requiert les paquet Debian xsltproc et wkhtmltopdf
 
-xsltproc -o /tmp/Livret.fo ressources/pdf.xsl ressources/liste_projets.xml
-fop -fo /tmp/Livret.fo -pdf ../Livret.pdf
+xsltproc -o ressources/livret.html ressources/livret.xsl ressources/liste_projets.xml
+wkhtmltopdf ressources/livret.html ../Livret.pdf
